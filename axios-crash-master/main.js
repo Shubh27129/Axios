@@ -65,7 +65,7 @@ function customHeaders() {
   config
   )
   .then(res => showOutput(res))
-  .catch(err => console.log(err));
+  .catch(err => console.log(err));\
 }
 
 // TRANSFORMING REQUESTS & RESPONSES
